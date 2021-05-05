@@ -48,10 +48,10 @@ body, html {
 }
   
 .search {
-	position: sticky;
 	margin: 0 auto;
 	height: 70px;
 	margin-left: 344px;
+	float: right;
 }
 input {
 	height: 42px;
@@ -167,8 +167,16 @@ button, button:active, button:focus {
 	font-size: 25px;
 	letter-spacing: 10px;
 }
+.zag-zag1{
+	font-family: 'OpenSans-Bold', sans-serif;
+	font-size: 27px;
+	color: #18b4cf;
+	text-align: center;
+	padding: 60px 0px 50px 50px;
+}
 .zag-zag{
 	font-family: 'OpenSans-Bold', sans-serif;
+	font-size: 27px;
 	color: #18b4cf;
 	text-align: center;
 	padding: 60px 0px 0px 50px;
@@ -194,22 +202,30 @@ button, button:active, button:focus {
 }
 
 .container12 {
-	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
 	flex-flow: column wrap;
+	align-content: space-between;
+	width: 65%;
 	height: 970px;
 }
 .item12 {
- flex: 0 1 auto;
- margin: 10px;
+	box-sizing: border-box;
+	flex: 0 1 100px;
+	position: relative;
+	margin: 10px;
 }
+.item12 img {
+	position: relative;
+	box-sizing: border-box;
+	flex: 0 1 100px;
+    }
 .item12 p {
- color: #353a3d;
- text-align: center;
- background-color: #ffffff;
- padding: 10px 0px;
+	color: #353a3d;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 10px 0px 10px 0px;
 }
    .container {
 	display: flex;
